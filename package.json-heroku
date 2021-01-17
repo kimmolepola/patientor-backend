@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node build/src/index.js",
-    "build": "tsc",
+    "postinstall": "tsc",
     "lint": "eslint --ext .ts .",
     "dev": "ts-node-dev src/index.ts",
     "azureprepare": "Xcopy /Y web.config build && Xcopy /Y package.json build && cd build && npm install --only=production",

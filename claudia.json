@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "patientor-backend-executor",
+    "name": "patientor-backend",
+    "region": "eu-north-1"
+  },
+  "api": {
+    "id": "r6gdrn5b42"
+  }
+}
